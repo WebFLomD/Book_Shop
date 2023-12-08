@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN */
+
+.main{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.information{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 95px;
+}
+
+.info-category{
+    margin: 0;
+    padding: 0;
+    width: 550px;
+}
+
+.title-info-category{
+    margin: 0;
+    padding: 0;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 196.19%;
+}
+
+.text-info-category{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #241400;
+    margin-top: 15px;
+}
+
+.btn-info-category{
+    border: 0;
+    color: #fff;
+    background: #DB6700;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 196.19%;
+
+    padding-left: 57px;
+    padding-right: 57px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    margin-top: 20px;
+}
+
+.btn-info-category:hover{
+    background-color: #FF8518;
+    transition: .4s;
+}
+
+.post-book-random{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 60px;
+}
+
+.info-book p{
+    margin-top: 2px;
+    width: 230px;
+}
+
+.price-book{
+    color: #710000;
+
+    font-style: normal;
+    font-weight: 500;
+}
+
+.discount-book{
+    margin-left: 15px;
+    color: #757575;
+
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.btn-book button{
+    margin-top: 6px;
+}
+
+.info-book-random{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 230px;
+}
+
+.info-book-random p{
+    font-family: 'Montserrat';
+    font-size: 19px;
+    margin: 3px;
+}
+
+.price-post-book-random{
+    color: #710000;
+
+    font-style: normal;
+    font-weight: 500;
+}
+
+.lvl-post{
+    display: grid;
+    padding: 50px 50px;
+}
+
+.title-lvl{
+    text-transform: uppercase;
+}
+
+.lvl
+{    
+    /* position: absolute; - Это портит сайт*/ 
+    margin: 0;
+    padding-top: 50px;
+}
+
+
+.all-book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 62px;
+}
+
+.arrow{
+    color: #757575;
+    font-size: 50px;
+}
+
+.arrow:hover{
+    color: #1F1F1F;
+    transition: .5s;
+}
+
+.img-books,
+.img-books-random
+{
+    margin: 0;
+    padding: 0;
+    width: 225px;
+    border-radius: 10px;
+}
+
+.btn-add-basket{
+    color: #757575;
+    background-color: #fff;
+
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 196.19%;
+
+    padding-left: 27px;
+    padding-right: 27px;
+
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
+
+.btn-book{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+}
+
+.btn-add-basket:hover{
+    background-color: #DB6700;
+    color: #fff;
+    border-color: #DB6700;
+    transition: .4s;
+}
+.icon-favourites
+{
+    font-size: 25px;
+    color: #757575;
+    margin-top: 5px;
+}
+
+.icon-favourites:hover{
+    color: #930000;
+    transition: .4s;
+}
+
+.bnt-icon-favourites{
+    padding-left: 15px;
+    border: 0;
+    background-color: #fff;    
+}
+
+.circle-post-number{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+#circle-try{
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    background: #DB6700;
+}
+
+#circle-false{
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    border: 2.5px solid #757575;
+}
+
+#circle-false:hover{
+    background: #DB6700;
+    border: 3px solid #DB6700;
+    transition: .2s;
+}
+

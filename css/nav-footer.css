@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+/* Навигатор */
+.navigator{
+    background-color: #1F1F1F;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header li, a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+    font-family: 'Berkshire Swash', cursive;
+    color: #fff;
+    font-size: 45px;
+}
+
+.logo__color{
+    cursor: pointer;
+    font-family: 'Berkshire Swash', cursive;
+    color: #FF7800;
+    font-size: 45px;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 10px;
+    
+}
+
+.nav__links li a{
+    transform: all .3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #FF7800;
+    transition: .4s;
+}
+
+.person-outline{
+    font-size: 35px;
+}
+
+.bookmarks-outline{
+    font-size: 35px;
+}
+
+.bag-handle-outline{
+    font-size: 38px;
+}
+
+/* Конец Навигатора */
+/* Подвал */
+
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    background: #1F1F1F;
+    padding: 25px 50px;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.footer-lvl-title
+{
+    color: #FFFFFF;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    font-weight: 400;
+
+    margin-top: 20px;
+    
+}
+
+.footer-nav-lvl1-info{
+    margin-top: 10px;
+    display: flex; 
+}
+
+.footer-nav-lvl1-info li{
+    display: flex;
+    text-decoration: none;
+    width: 175px;  
+}
+
+.footer-nav-lvl2-info{
+    margin-top: 10px;
+    display: flex; 
+}
+
+.footer-nav-lvl2-info li{
+    display: flex;
+    text-decoration: none;
+    width: 350px;  
+}
+
+.footer-nav-lvl3-info{
+    margin-top: 10px;
+    display: flex; 
+}
+
+.footer-nav-lvl3-info li{
+    display: flex;
+    text-decoration: none;
+    width: 225px;  
+}
+
+.footer-nav-rigth{
+    display: block;
+}
+
+#text-footer{
+    color: #AAAAAA;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+#text-footer:hover{
+    color: #FF7800;
+    transition: .4s;
+}
+
+/* Конец Подвала */
