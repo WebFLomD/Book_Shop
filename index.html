@@ -3,31 +3,47 @@
 <head>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/nav-footer.css">
-    <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' rel='stylesheet'/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
 </head>
 <body>
+
+<!-- Навигатор -->
+
     <header class="navigator">
         <p class="logo">Book<span class="logo__color">Shop</span></p>
         <nav>
-            <ul class="nav__links">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Книги</a></li>
+            <ul class="nav-links-text">
+                <li><a href="index.html">Главная</a></li>
+                <li>
+                    <a href="all-books.html">Книги</a>
+                    <ul>
+                        <li><a href="category-all-books.html">Художественная литература</a></li>
+                        <li><a href="category-all-books.html">Наука и техника</a></li>
+                        <li><a href="category-all-books.html">Деловая литература</a></li>
+                        <li><a href="category-all-books.html">Красота. Здоровье. Спорт</a></li>
+                        <li><a href="category-all-books.html">Увлечение</a></li>
+                        <li><a href="category-all-books.html">Философия</a></li>
+                        <li><a href="category-all-books.html">Книги для детей</a></li>
+                        <li><a href="category-all-books.html">Образование</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Акции</a></li>
                 <li><a href="inform-shop.html">О магазине</a></li>
             </ul>
         </nav>
         <div class="icons">
-            <ul class="nav__links">
+            <ul class="nav-links-icon">
                 <li><a href="#"><ion-icon class="person-outline" name="person-outline"></ion-icon></a></li>
-                <li><a href="#"><ion-icon class="bookmarks-outline" name="bookmarks-outline"></ion-icon></a></li>
-                <li><a href="#"><ion-icon class="bag-handle-outline" name="bag-handle-outline"></ion-icon></a></li>
+                <li><a href="favourites.html"><ion-icon class="bookmarks-outline" name="bookmarks-outline"></ion-icon></a></li>
+                <li><a href="basket.html"><ion-icon class="bag-handle-outline" name="bag-handle-outline"></ion-icon></a></li>
             </ul>
         </div>
     </header>
+
+<!-- Конец Навигатора -->
 
     <div class="main">
         <div class="lvl-post">
@@ -36,13 +52,13 @@
                 <div class="info-category">
                     <h1 class="title-info-category">Книги от А до Я</h1>
                     <p class="text-info-category">В нашем магазине можно найти книгу на любой вкус. Большой ассортимент. Приятные цены. Интересные сюжеты.</p>
-                    <a href="#"><button class="btn-info-category">Перейти в каталог</button></a>
+                    <a href="all-books.html"><button class="btn-info-category">Перейти в каталог</button></a>
                 </div>
                 
                 <div class="post-book-random">
 
                     <div class="book-random">
-                        <a href="#" class="img-books-post-random"><img src="img/cover.png" alt="img-books" class="img-books-random"></a>
+                        <a href="post.html" class="img-books-post-random"><img src="img/cover.png" alt="img-books" class="img-books-random"></a>
                         <div class="info-book-random">
                             <p class="title-post-book-random">Словно мы злодеи</p>
                             <p class="author-post-book-random">М. Рио</p>
@@ -51,7 +67,7 @@
                     </div>
 
                     <div class="book-random">
-                        <a href="#" class="img-books-post-random"><img src="img/cover.png" alt="img-books" class="img-books-random"></a>
+                        <a href="post.html" class="img-books-post-random"><img src="img/cover.png" alt="img-books" class="img-books-random"></a>
                         <div class="info-book-random">
                             <p class="title-post-book-random">Словно мы злодеи</p>
                             <p class="author-post-book-random">М. Рио</p>
@@ -60,7 +76,7 @@
                     </div>
 
                     <div class="book-random">
-                        <a href="#" class="img-books-post-random"><img src="img/cover.png" alt="img-books" class="img-books-random"></a>
+                        <a href="post.html" class="img-books-post-random"><img src="img/cover.png" alt="img-books" class="img-books-random"></a>
                         <div class="info-book-random">
                             <p class="title-post-book-random">Словно мы злодеи</p>
                             <p class="author-post-book-random">М. Рио</p>
@@ -81,7 +97,7 @@
                     <div class="arrow"><ion-icon name="chevron-back-outline"></ion-icon></div>
                     
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -94,7 +110,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -107,7 +123,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -120,7 +136,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -133,7 +149,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -172,7 +188,7 @@
                     <div class="arrow"><ion-icon name="chevron-back-outline"></ion-icon></div>
                     
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -185,7 +201,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -198,7 +214,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -211,7 +227,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -224,7 +240,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -263,7 +279,7 @@
                     <div class="arrow"><ion-icon name="chevron-back-outline"></ion-icon></div>
                     
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -276,7 +292,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -289,7 +305,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -302,7 +318,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -315,7 +331,7 @@
                     </div>
 
                     <div class="post-book">
-                        <a href="#" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
+                        <a href="post.html" class="img-books-post"><img src="img/book.webp" alt="img-book" class="img-books"></a>
                         <div class="info-book" id="info-book">
                             <p class="title-post">Assassin's Creed. Одиссея</p>
                             <p class="info-post">Гордон Догерти</p>
@@ -344,11 +360,13 @@
                 
                 
             </div>
-
 
             
         </div>
     </div>
+
+
+<!-- Подвал -->
 
     <footer id="footer">
         <p class="logo">Book<span class="logo__color">Shop</span></p>
@@ -409,6 +427,7 @@
         </div>
     </footer>
 
+<!-- Конец подвала -->
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

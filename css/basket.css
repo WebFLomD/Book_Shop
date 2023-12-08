@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-all{
+    margin: 0;
+    padding: 30px 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.add-all-books-and-pay-sum{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    justify-content: space-between;
+}
+
+.add-all-books{
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+
+    width: 1300px;
+}
+
+.img-post-boocks{
+    display: block;
+    padding: 0;
+    margin: 0;
+
+    width: 205px;
+    border-radius: 10px;
+}
+
+.title-stars{
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-stars{
+    padding: 0;
+    margin: 0;
+    display: block;
+
+    font-size: 26px;
+    color: #DEA000;
+}
+
+.info-books p{
+    margin-top: 7px;
+}
+
+.author{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+
+    color: #000000;
+}
+
+.inform-books{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 125%;
+
+    text-align: justify;
+    color: #000000;
+}
+
+.price-discount{
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+
+    gap: 30px;
+}
+
+.price{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #710000;
+}
+
+.discount{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #757575;
+    text-decoration: line-through;
+}
+
+.p-m-del-save{
+    margin-top: 15px;
+    padding: 0;
+    display: flex;
+
+    gap: 15px;
+}
+
+.btn-plus-minus{
+    padding: 0;
+    margin: 0;
+    display: block;
+
+    width: 30px;
+    height: 30px;
+
+    background: #DB6700;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.btn-plus-minus:hover{
+    background: #FF8518;
+    transition: .3s;
+}
+
+.btn-favourites-delete{
+    padding: 0;
+    margin-top: 1px;
+    display: block; 
+
+    width: 30px;
+    height: 30px;
+
+    background: none;
+    color: #757575;
+    border: 0;
+}
+
+.icon-favourites{
+    font-size: 22px;
+    align-items: center;
+}
+
+.icon-favourites:hover{
+    color: #710000;
+    transition: .3s
+}
+
+.icon-delete{
+    font-size: 22px;
+    align-items: center;
+}
+
+.icon-delete:hover{
+    color: #DB6700;
+    transition: .3s;
+}
+
+.number{
+    color: #000000;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.pay-sum{
+    margin-top: 30px;
+    padding: 0;
+    display: block;
+
+    width: 350px;
+}
+
+.pay-sum h1{
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+
+    color: #000000;
+}
+
+.discount-product{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    justify-content: space-between;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 196.19%;
+}
+
+.num-discount{
+    color: #710000;
+}
+
+.sum{
+    margin-top: 60px;
+    padding: 0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 196.19%;
+
+    color: #000000;
+}
+
+.btn-pay{
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    color: #FFFFFF;
+    background: #DB6700;
+    border: 0;
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 196.19%;
+}
+
+.btn-pay:hover{
+    background: #FF8518;
+    transition: .3s;
+}

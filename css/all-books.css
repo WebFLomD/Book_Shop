@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.category{
+    margin: 0;
+    padding: 0;
+    max-width: 390px;
+    padding-top: 30px;
+}
+
+#title-block{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 196.19%;
+
+    color: #000000;
+}
+
+#title-categry{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 196.19%;
+
+    color: #000000;
+}
+
+.category li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.category li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 165%;
+}
+
+.category li a:hover{
+    color: #DB6700;
+    transition: .3s;
+}
+
+.all-books{
+    display: block;
+    margin: auto;
+}
+
+.block-all-books{
+    padding-top: 30px;
+}
+
+.title-arrow{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-arrow h1 a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 196.19%;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.title-arrow h1 a:hover{
+    color: #DB6700;
+    transition: .3s;
+}
+
+#arrow{
+    display: flex;
+    font-size: 30px;
+    gap: 30px;
+    color: #757575;
+}
+
+.arrow:hover{
+    color: #DB6700;
+    transition: .3s;
+}
+
+.all-books-category-flex{
+    justify-content: space-between;
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+
+.post-books-category{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+#post-book-img{
+    border-radius: 10px;
+    width: 225px;
+}
+
+
+.info-books-category{
+    display: block;
+    margin: 7px;
+}
+.info-books-category p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    max-width: 225px;
+}
+
+.price-post-book-category{
+    color: #710000;
+}
+
+.btn-book{
+    margin-top: 6px;
+}
+
+.btn-add-basket{
+    color: #757575;
+    background-color: #fff;
+
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 196.19%;
+
+    padding-left: 27px;
+    padding-right: 27px;
+
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
+
+.btn-add-basket:hover{
+    background-color: #DB6700;
+    color: #fff;
+    border-color: #DB6700;
+    transition: .4s;
+}
+
+.bnt-icon-favourites{
+    padding-left: 15px;
+    border: 0;
+    background-color: #fff;
+    position: absolute;  
+}
+
+.icon-favourites{
+    display: block;
+    font-size: 25px;
+    color: #757575;
+}
+
+.icon-favourites:hover{
+    color: #930000;
+    transition: .4s;
+}

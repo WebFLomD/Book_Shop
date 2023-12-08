@@ -10,3 +10,34 @@
 .info-shop{
     padding: 30px 50px;
 }
+
+.info-shop-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 196.19%;
+}
+
+.info-shop-text{
+    text-align: justify;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.info-shop-text ul{
+    margin-left: 20px;
+}
+
+.top5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: justify;
+}

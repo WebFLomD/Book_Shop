@@ -14,12 +14,66 @@ header{
     padding: 30px 10%;
 }
 
-header li, a{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    color: #FFFFFF;
+header li a{
+    font-family: 'Montserrat', sans-serif; /* Установка шрифта*/
+    font-weight: 500; /* Задает вес. Доступные веса зависят от семейства шрифтов, которое установлено в данный момент*/
+    font-size: 22px; /* Размер шрифта*/
+    color: #FFFFFF; /* Цвет текста */
+
     text-decoration: none;
+}
+
+
+header nav ul{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header nav ul li{
+    position: relative;
+    padding: 15px;
+    list-style-type: none;
+}
+
+header nav ul li a:hover{
+    color: #FF7800;
+    transition: .4s;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header nav ul li ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    display: block;
+    background: #1F1F1F;
+    width: 400px;
+
+
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+header nav ul li ul a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+header nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
 }
 
 .logo{
@@ -36,17 +90,17 @@ header li, a{
     font-size: 45px;
 }
 
-.nav__links li{
+.nav-links-icon li{
     display: inline-block;
     padding: 0px 10px;
-    
 }
 
-.nav__links li a{
+.nav-links-icon li a{
+    font-size: 35px;
     transform: all .3s ease 0s;
 }
 
-.nav__links li a:hover{
+.nav-links-icon li a:hover{
     color: #FF7800;
     transition: .4s;
 }
@@ -63,6 +117,9 @@ header li, a{
     font-size: 38px;
 }
 
+
+
+
 /* Конец Навигатора */
 /* Подвал */
 
@@ -70,6 +127,10 @@ header li, a{
     font-family: 'Montserrat', sans-serif;
     background: #1F1F1F;
     padding: 25px 50px;
+}
+
+footer{
+    margin-top: 60px;
 }
 
 .footer-nav{
@@ -140,6 +201,7 @@ header li, a{
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
+    text-decoration-line: none;
 }
 
 #text-footer:hover{

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-all{
+    margin: 0;
+    padding: 30px 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.main-all h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+
+    color: #000000;
+}
+
+.add-post-all-books{
+    display: flex;
+    padding: 0;
+    margin-top: 30px;
+
+    gap: 30px;
+}
+
+.img-books{
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    width: 193px;
+    border-radius: 10px;
+}
+
+.title-stars{
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-stars{
+    padding: 0;
+    margin: 0;
+    display: block;
+
+    font-size: 26px;
+    color: #DEA000;
+}
+
+.info-books p{
+    margin-top: 7px;
+}
+
+.author{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+
+    color: #000000;
+}
+
+.inform-books{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 125%;
+
+    text-align: justify;
+    color: #000000;
+}
+
+.price-discount{
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+
+    gap: 30px;
+}
+
+.price{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #710000;
+}
+
+.discount{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #757575;
+    text-decoration: line-through;
+}
+
+.add-basket-delete{
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+
+    gap: 10px;
+}
+
+.in-basket{
+    width: 170px;
+    height: 35px;
+
+    border: 1px solid #757575;
+    border-radius: 5px;
+    background: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #757575;
+}
+
+.in-basket:hover{
+    background-color: #DB6700;
+    color: #fff;
+    border-color: #DB6700;
+    transition: .4s;
+}
+
+.btn-favourites-delete{
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background: none;
+
+    color: #757575;
+    font-size: 20px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-favourites-delete:hover{
+    color: #DB6700;
+    transition: .3s;
+}

@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.all-info-post-books{
+    margin: 0;
+    padding: 30px 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.img-all-infom-post{
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+.img-books{
+    border-radius: 10px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 343px;
+}
+
+.status-estimation{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-discounts{
+    margin: 0;
+    padding: 0;
+    min-width: 100px;
+    max-width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+    background: #008A93;
+    border-radius: 5px;
+}
+
+.status-new{
+    margin: 0;
+    padding: 0;
+    min-width: 175px;
+    max-width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+    background: #039300;
+    border-radius: 5px;
+}
+
+.stars{
+    color: #DEA000;
+    font-size: 30px;
+}
+
+.estimation{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 196.19%;
+
+    color: #797979;
+}
+
+.text-estimate{
+    text-decoration: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 196.19%;
+}
+
+.title-books{
+    margin-top: 10px;
+    padding: 0;
+    display: block;
+}
+
+.title-books h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 54px;
+
+    color: #000000;
+}
+
+.author-name{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+#author{
+    color: #606060;
+}
+
+#name-author{
+    text-decoration: none;
+}
+
+.information-books{
+    margin-top: 30px;
+    padding: 0;
+    display: block;
+}
+
+#information-books{
+    display: flex;
+    margin-top: 5px;
+    padding: 0;
+    color: #606060;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 150%;
+}
+
+#information-books a{
+    text-decoration: none;
+}
+
+#information-title{
+    min-width: 325px;
+    max-width: 500px;
+}
+
+#price-discounts{
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding-top: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 196.19%;
+}
+
+.price-discounts{
+    color: #710000;
+}
+
+.price{
+    color: #797979;
+    text-decoration: line-through;
+}
+
+.btn{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-add-basket{
+    width: 300px;
+    height: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 196.19%;
+
+    background: #DB6700;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-add-basket:hover{
+    background: #FF8518;
+    transition: .3s;
+}
+
+.bnt-icon-favourites{
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    font-size: 35px;
+
+    color: #797979;
+}
+
+.bnt-icon-favourites:hover{
+    color: #930000;
+    transition: .3s;
+}
+
+.inform-books{
+    padding-top: 30px;
+    margin: 0;
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.inform-books h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+.inform-books p{
+    padding-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.comments{
+    padding: 0;
+    margin: 0;
+    display: block;
+
+    max-width: 1075px;
+    min-width: 1075px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.title-and-btn{
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+    justify-content: space-between;
+}
+
+.title-and-btn button{
+    background: #DB6700;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+
+    width: 215px;
+    height: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 196.19%;
+
+}
+
+.title-and-btn button:hover{
+    background: #FF8518;
+    transition: .3s;
+}
+
+.line{
+    display: block;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1075px;
+    height: 2px;
+
+    background: #D9D9D9;
+}
+
+.user-date-stars{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.users{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #606060;
+}
+
+.date-stars{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    color: #606060;
+}
+
+.stars-users{
+    color: #DEA000;
+    font-size: 23px;
+}
+
+.comments-users{
+    margin-top: 20px;
+    padding: 0;
+    display: block;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+
+    color: #000000;
+}
+
+.title-comments{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.comments-users-try{
+    margin-top: 15px;
+    padding: 0;
+    display: block;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.show-more{
+    text-decoration: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+
+}
+
+.all-comments{
+    text-decoration: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 196.19%;
+}
+
+.all-comments p{
+    text-align: center;
+}
+
+.all-rec-books{
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/**/
+
+.comments-stars{
+    display: flex;
+    margin: 0;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.stars-all{
+    width: 600px;
+    display: block;
+}
+
+.title-all-stars{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star-all-books-all-users{
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    color: #DEA000;
+    font-size: 35px;
+}
+
+.line-2{
+    display: block;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 2px;
+
+    background: #D9D9D9;
+}
+
+.reviews-number-of-ratings{
+    display: flex;
+    margin-top: 15px;
+    padding: 0;
+
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    color: #606060;
+}
+
+.line-number-of-ratings-all{
+    display: block;
+    padding: 0;
+    margin: 0;
+
+    width: 450px;
+    height: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #D9D9D9;
+}
+
+.line-number-of-ratings-5{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+
+    width: 375px;
+    height: 10px;
+
+    background: #DB6700;
+}
+
+.line-number-of-ratings-4{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+
+    width: 100px;
+    height: 10px;
+
+    background: #DB6700;
+}
+
+#title-all-stars{
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    width: 80px;
+}
+
+.numder-all-stars{
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    word-wrap: break-word;
+    width: 20px;
+}
+/**/
+
+.rec-post-all-books{
+    margin-top: 30px;
+    padding: 0;
+    display: block;
+}
+
+.arrow{
+    color: #757575;
+    font-size: 50px;
+}
+
+.arrow:hover{
+    color: #1F1F1F;
+    transition: .5s;
+}
+
+.rec-img-books{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.rec-info-books{
+    display: block;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.rec-info-books p{
+    margin-top: 3px;
+    width: 240px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.price-book{
+    color: #710000;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.discount-book{
+    margin-left: 15px;
+    color: #757575;
+
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: line-through;
+
+}
+
+.btn-rec-post{
+    display: flex;
+    margin-top: 7px;
+    padding: 0;
+    gap: 15px;
+}
+
+.btn-rec-add-basket{
+    color: #757575;
+    background-color: #fff;
+
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 196.19%;
+
+    padding-left: 27px;
+    padding-right: 27px;
+
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
+
+.btn-rec-add-basket:hover{
+    background-color: #DB6700;
+    color: #fff;
+    border-color: #DB6700;
+    transition: .4s;
+}
+.rec-icon-favourites
+{
+    font-size: 25px;
+    color: #757575;
+}
+
+.rec-icon-favourites:hover{
+    color: #930000;
+    transition: .4s;
+}
+
+.bnt-rec-icon-favourites{
+    border: 0;
+    background-color: #fff;    
+}
